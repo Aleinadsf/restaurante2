@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+   
+    margin: 2;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for the form */
+    border: 1px solid #ccc; /* Light border around the form */
+    border-radius: 5px; /* Rounded corners for a softer look */
+    padding: 20px; /* Padding for spacing inside the form */
+  }
+  
+  h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center; /* Center align the title */
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Bold text for labels */
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px; /* Increase padding for better readability */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include border width in input size */
+  }
+  
+  button {
+    margin-top: 15px; /* Increase margin for separation */
+    padding: 10px 20px; /* Adjust padding for a wider button */
+    font-size: 16px;
+    background-color: #4CAF50; /* Green button color */
+    color: white; /* White text color for contrast */
+    border: none; /* Remove border for a cleaner look */
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* Darker green on hover effect */
+  }
+  
+  #mensaje-exito, #mensaje-error {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  #mensaje-exito {
+    color: green;
+  }
+  
+  #mensaje-error {
+    color: red;
+  }
+  
+  .hidden {
+    display: none;
+  }

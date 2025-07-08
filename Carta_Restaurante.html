@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Isabel</title>
+    <link rel="stylesheet" href="Carta_Restaurante.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <script src="https://kit.fontawesome.com/0db69381a2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="encabezado-carta">
+        <div id="contenedor-encabezado-carta">
+            <div id="regresar">
+                <a href="index.html"> <i class="fa-solid fa-angle-left icono-back"></i>Atrás</a>
+            </div>
+            <div id="tipo-carta">
+                <div id="contenedor-carta">
+                    <span id="boton-carta">CARTA</span>
+                </div>
+                <div id="contenedor-menu">
+                    <span id="boton-menu">MENU</span>
+                </div>
+            </div>
+            <div id="carrito-compras">
+                <i class="ti ti-shopping-cart-filled"></i>
+                <span id="contador-carrito">0</span>
+            </div>
+        </div>
+    </header>
+    <div id="fondo"></div>
+    <section id="contenedor-productos-carrito">
+        <div id="titulo-carrito">
+            <h2>Carrito de compras</h2>
+            <i id="btn-cerrar-carrito" class="ti ti-x"></i>
+        </div>
+        <div id="lista-productos-carrito">
+            <h2 id="carrito-vacio">El carrito está vacío</h2>
+        </div>
+        <div id="total-productos-carrito">
+            <h2>Total a pagar:</h2>
+            <div id="precio-total-carrito">
+                <span id="simbolo-precio-carrito">$</span>
+                <span id="numero-precio-carrito">0</span>
+            </div>
+            <a id="btnComprar-carrito" href="Metodo_Pago.html">Realizar compra</a>
+        </div>
+    </section>
+    <main id="cuerpo-carta">
+        <div id="encabezado-main">
+            <div id="info-encabezado-main">
+                <h2 id="titulo">MENU</h2>
+                <p>Bienvenidos a El Rincón Livias, en donde brindamos una experiencia única al paladar. <strong>¡Elija el plato de su preferencia!</strong></p>
+            </div>
+            <div id="dias-semana">
+                <a href="#dia-lunes">LUN</a>
+                <a href="#dia-martes">MAR</a>
+                <a href="#dia-miercoles">MIER</a>
+                <a href="#dia-jueves">JUE</a>
+                <a href="#dia-viernes">VIER</a>
+                <a href="#dia-sabado">SAB</a>
+                <a href="#dia-domingo">DOM</a>
+            </div>
+        </div>
+        <div id="cuerpo-main">
+            <div id="contenedor-secciones-dias">
+                <section id="dia-lunes" class="seccion">
+                    <h3 class="titulo-seccion">LUNES</h3>
+                    <div class="slider-principal">
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">
+                                    $<h4>40.80</h4>
+                                </span>
+                                <h3 class="nombre-comida">Pasta01</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/ensalada.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>47.50</h4></span>
+                                <h3 class="nombre-comida">Ensalada</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza1.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>51.20</h4></span>
+                                <h3 class="nombre-comida">Pizza01</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>142.70</h4></span>
+                                <h3 class="nombre-comida">Postre01</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>230.80</h4></span>
+                                <h3 class="nombre-comida">Pizza02</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>67.90</h4></span>
+                                <h3 class="nombre-comida">Postre02</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>98.20</h4></span>
+                                <h3 class="nombre-comida">Pizza03</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                    <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                    <h2>info</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>121.30</h4></span>
+                                <h3 class="nombre-comida">Pasta01</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$<h4>530.50</h4></span>
+                                <h3 class="nombre-comida">Postre01</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                                <button class="btnComprar">
+                                    <i class="ti ti-brand-shopee"></i>
+                                </button>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>                                
+                    </div>
+                </section>
+                <section id="dia-martes" class="seccion">
+                    <h3 class="titulo-seccion">MARTES</h3>
+                    <div class="slider-principal">
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/ensalada.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza1.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                    <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                    <h2>info</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>                                
+                    </div>
+                </section>
+                <section id="dia-miercoles" class="seccion">
+                    <h3 class="titulo-seccion">MIERCOLES</h3>
+                    <div class="slider-principal">
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/ensalada.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza1.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                    <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                    <h2>info</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>                                
+                    </div>
+                </section>
+                <section id="dia-jueves" class="seccion">
+                    <h3 class="titulo-seccion">JUEVES</h3>
+                    <div class="slider-principal">
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/ensalada.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza1.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                    <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                    <h2>info</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>                                
+                    </div>
+                </section>
+                <section id="dia-viernes" class="seccion">
+                    <h3 class="titulo-seccion">VIERNES</h3>
+                    <div class="slider-principal">
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/ensalada.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza1.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                    <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                    <h2>info</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>                                
+                    </div>
+                </section>
+                <section id="dia-sabado" class="seccion">
+                    <h3 class="titulo-seccion">SÁBADO</h3>
+                    <div class="slider-principal">
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/ensalada.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza1.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                    <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                    <h2>info</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>                                
+                    </div>
+                </section>
+                <section id="dia-domingo" class="seccion">
+                    <h3 class="titulo-seccion">DOMINGO</h3>
+                    <div class="slider-principal">
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/ensalada.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza1.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pizza3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                    <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                    <h2>info</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/pasta3.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>
+                        <div class="tarjeta">
+                            <div class="cara front">
+                                <img src="Multimedia/Img/Comidas/postres2.jpg" alt="gaaa">
+                                <i class="fa-solid fa-circle-info icono-info"></i>
+                                <span class="precio">$ 400</span>
+                                <h3 class="nombre-comida">Comida</h3>
+                                <h2 class="tipo-comida">Clasifiacion</h2>
+                            </div>
+                            <div class="cara back">
+                                <i class="fa-solid fa-circle-chevron-left icono-regresar"></i>
+                                <h2>info</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ad commodi ?</p>
+                            </div>
+                        </div>                                
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <script src="Carta_Restaurante.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilo_Pago.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+</head>
+<body>
+    <header>
+        <div id="encabezado">
+            <div id="imagen-restaurante">
+                <a href="index.html"><img src="Multimedia/Img/Logos/Logo-blanco.png" alt="Logo-restaurante"></a>
+            </div>
+            <div id="imagen-usuario">
+                <i class="ti ti-user-circle"></i>
+            </div>
+        </div>
+    </header>
+    <main><button id="btn-retroceso">Regresar</button>
+        <div class="container">
+
+            <form action="">
+        
+                <div class="row">
+        
+                    <div class="col">
+        
+                        <h3 class="title">dirección de envio</h3>
+        
+                        <div class="inputBox">
+                            <span>Nombre :</span>
+                            <input type="text" placeholder="***********">
+                        </div>
+                        <div class="inputBox">
+                            <span>Email :</span>
+                            <input type="email" placeholder="ejemplo@ejemplo.com">
+                        </div>
+                        <div class="inputBox">
+                            <span>Direccion :</span>
+                            <input type="text" placeholder="avenida - calle - localidad">
+                        </div>
+                        <div class="inputBox">
+                            <span>Ciudad :</span>
+                            <input type="text" placeholder="Lima">
+                        </div>
+        
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Pais :</span>
+                                <input type="text" placeholder="Peru">
+                            </div>
+                            <div class="inputBox">
+                                <span>Codigo Postal :</span>
+                                <input type="text" placeholder="123 456">
+                            </div>
+                        </div>
+        
+                    </div>
+        
+                    <div class="col">
+        
+                        <h3 class="title">PAGO</h3>
+        
+                        <div class="inputBox">
+                            <span>Tarjetas :</span>
+                            <img src="Multimedia/Img/Logos/card_img.png" alt="">
+                        </div>
+                        <div class="inputBox">
+                            <span>Nombre en la tarjeta :</span>
+                            <input type="text" placeholder="********">
+                        </div>
+                        <div class="inputBox">
+                            <span>Numero de Tarjeta de Credito :</span>
+                            <input type="number" placeholder="1111-2222-3333-4444">
+                        </div>
+                        <div class="inputBox">
+                            <span>Mes :</span>
+                            <input type="text" placeholder="Enero">
+                        </div>
+        
+                        <div class="flex">
+                            <div class="inputBox">
+                                <span>Año :</span>
+                                <input type="number" placeholder="2024">
+                            </div>
+                            <div class="inputBox">
+                                <span>CVV :</span>
+                                <input type="text" placeholder="1234">
+                            </div>
+                        </div>
+        
+                    </div>
+            
+                </div>
+        
+                <input type="reset" value="Limpiar" class="submit-btn">
+        
+                <input type="submit" value="Realizar Compra" class="submit-btn">
+        
+                
+            </form>
+        
+        </div>
+    </main>
+    <script src="Metodo_pago.js"></script>
+</body>
+</html>
